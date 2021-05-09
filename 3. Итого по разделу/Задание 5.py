@@ -24,8 +24,6 @@ with open(os.path.join('C:', 'Users', 'Somiko', 'PycharmProjects',
     for line in input_string:
         start.append(line.split())
 
-print(start)
-
 while group < 12:
     for learner in start:
         if int(learner[0]) == group:
